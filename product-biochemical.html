@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>친환경 바이오케미칼 | KDT 한국탈취기술(주)</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <img src="images/logo-kdt.png" alt="KDT 한국탈취기술(주)" class="logo-mark">
+    </a>
+
+    <nav class="gnb" id="gnb">
+      <ul class="gnb-list">
+        <li class="gnb-item">
+          <a href="#" class="gnb-link">회사소개</a>
+          <div class="mega-panel">
+            <ul class="mega-list">
+              <li><a href="about-overview.html">회사개요</a></li>
+              <li><a href="about-history.html">회사연혁</a></li>
+              <li><a href="certificate.html">인증/특허</a></li>
+              <li><a href="about-location.html">오시는길</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="gnb-item">
+          <a href="#" class="gnb-link">제품소개</a>
+          <div class="mega-panel">
+            <ul class="mega-list">
+              <li><a href="product-orderbreak.html">산업용 탈취기</a></li>
+              <li><a href="product-biochemical.html">친환경 바이오케미칼</a></li>
+              <li><a href="product-airpressure.html">안전한 에어프레셔</a></li>
+              <li><a href="product-diffuser.html">용존포기기</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="gnb-item">
+          <a href="#" class="gnb-link">기술자료</a>
+          <div class="mega-panel">
+            <ul class="mega-list">
+              <li><a href="files/KDT_탈취기_카탈로그.pdf" download>카탈로그</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="gnb-item">
+          <a href="#" class="gnb-link">고객지원</a>
+          <div class="mega-panel">
+            <ul class="mega-list">
+              <li><a href="notice.html">공지사항</a></li>
+              <li><a href="contact.html">고객문의</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <button class="mobile-toggle" id="mobileToggle" aria-label="메뉴 열기">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <!-- 모바일 전용 메뉴 -->
+  <nav class="mobile-nav" id="mobileNav">
+    <ul>
+      <li>
+        <button class="mobile-depth1">회사소개</button>
+        <ul class="mobile-depth2">
+          <li><a href="about-overview.html">회사개요</a></li>
+          <li><a href="about-history.html">회사연혁</a></li>
+          <li><a href="certificate.html">인증/특허</a></li>
+          <li><a href="about-location.html">오시는길</a></li>
+        </ul>
+      </li>
+      <li>
+        <button class="mobile-depth1">제품소개</button>
+        <ul class="mobile-depth2">
+          <li><a href="product-orderbreak.html">산업용 탈취기</a></li>
+          <li><a href="product-biochemical.html">친환경 바이오케미칼</a></li>
+          <li><a href="product-airpressure.html">안전한 에어프레셔</a></li>
+          <li><a href="product-diffuser.html">용존포기기</a></li>
+        </ul>
+      </li>
+      <li>
+        <button class="mobile-depth1">기술자료</button>
+        <ul class="mobile-depth2">
+          <li><a href="files/KDT_탈취기_카탈로그.pdf" download>카탈로그</a></li>
+        </ul>
+      </li>
+      <li>
+        <button class="mobile-depth1">고객지원</button>
+        <ul class="mobile-depth2">
+          <li><a href="notice.html">공지사항</a></li>
+          <li><a href="contact.html">고객문의</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <div class="mega-dim" id="megaDim"></div>
+</header>
+
+<main>
+  <section class="page-banner">
+    <p class="section-eyebrow light">PRODUCTS</p>
+    <h1 class="page-title">친환경 바이오케미칼</h1>
+  </section>
+
+  <section class="biochem-section reveal">
+
+    <!-- ============ 카테고리 + 탭 메뉴 ============ -->
+    <div class="biochem-category">
+      <div class="biochem-cat-group">
+        <h2 class="biochem-cat-title">산업용</h2>
+        <div class="biochem-tabs" role="tablist">
+          <button class="biochem-tab is-active" data-target="mokgeonwon" type="button">클린원</button>
+          <button class="biochem-tab" data-target="freecoex" type="button">프리코EX</button>
+          <button class="biochem-tab" data-target="exclean" type="button">엑스클린</button>
+          <button class="biochem-tab" data-target="sludge-x" type="button">슬러지 엑스</button>
+          <button class="biochem-tab" data-target="surface-mod" type="button">클린원 오일</button>
+        </div>
+      </div>
+
+      <div class="biochem-cat-group">
+        <h2 class="biochem-cat-title">생활용</h2>
+        <div class="biochem-tabs" role="tablist">
+          <button class="biochem-tab" data-target="freeco-life" type="button">프리코-생활용</button>
+          <button class="biochem-tab" data-target="freeco-pet" type="button">프리코-펫</button>
+          <button class="biochem-tab" data-target="freeco-drain" type="button">프리코-하수구</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ 제품 설명(콘텐츠) 영역 ============ -->
+    <div class="biochem-panel-wrap">
+
+      <!-- [산업용] 클린원 설명 영역 시작 (ORP케미컬 제품설명서 rev1.0.pptx 3p) -->
+      <div class="biochem-panel is-active" id="panel-mokgeonwon">
+        <div class="biochem-panel-inner biochem-panel-inner-top">
+          <div class="biochem-panel-visual-col">
+            <div class="biochem-panel-visual">
+              <img src="images/orp-chemical/cleanone-product.png" alt="클린원(Clean-One)">
+              <!-- 클린원(Clean-One) 완제품 사진 -->
+            </div>
+            <div class="biochem-site-block">
+              <p class="biochem-site-title">사용현장</p>
+              <div class="biochem-site-grid">
+                <div class="biochem-site-item">
+                  <img src="images/orp-chemical/cleanone-site1.png" alt="음식물 폐기물 현장">
+                  <!-- 사용현장: 음식물 폐기물 -->
+                </div>
+                <div class="biochem-site-item">
+                  <img src="images/orp-chemical/cleanone-site2.png" alt="축산·슬러지 시설 현장">
+                  <!-- 사용현장: 축산/슬러지 시설 -->
+                </div>
+                <div class="biochem-site-item">
+                  <img src="images/orp-chemical/cleanone-site3.png" alt="폐수처리장 현장">
+                  <!-- 사용현장: 폐수처리장 -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="biochem-panel-text">
+            <p class="biochem-panel-eyebrow">산업용 · 염기성/ 중성 악취 분해</p>
+            <h3 class="biochem-panel-title">클린원</h3>
+            <p class="biochem-panel-desc">
+              악취 물질과 접촉하는 순간 즉각적인 반응을 일으켜 냄새를 근본적으로
+              제거합니다.
+            </p>
+            <div class="biochem-feature-box">
+              <p class="biochem-feature-box-title">주요 특징</p>
+              <ul>
+                <li>악취물질과 접촉하여 즉각적으로 분해 반응</li>
+                <li>2차 오염 없는 안전한 성분으로 구성된 친환경 탈취제</li>
+                <li>축산, 산업 현장, 일반 환경 범용 사용</li>
+              </ul>
+            </div>
+            <div class="biochem-graph">
+              <img src="images/orp-chemical/cleanone-graph.png" alt="암모니아(NH3) 감소 시험 결과 (단위: ppm)">
+              <!-- 암모니아(NH3) 감소 시험 결과 그래프: 냄새발생 40ppm → 30분 후 → 60분 후 급감 -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- [산업용] 클린원 설명 영역 끝 -->
+
+      <!-- [산업용] 프리코EX 설명 영역 시작 (ORP케미컬 제품설명서 rev1.0.pptx 4p) -->
+      <div class="biochem-panel" id="panel-freecoex">
+        <div class="biochem-panel-inner biochem-panel-inner-top">
+          <div class="biochem-panel-visual-col">
+            <div class="biochem-panel-visual">
+              <img src="images/orp-chemical/freecoex-product.png" alt="프리코 Ex(Freeco Ex)">
+              <!-- 프리코 Ex(Freeco Ex) 완제품 사진 -->
+            </div>
+            <div class="biochem-site-block">
+              <p class="biochem-site-title">사용현장</p>
+              <div class="biochem-site-grid">
+                <div class="biochem-site-item">
+                  <img src="images/orp-chemical/freecoex-site1.png" alt="축산 현장">
+                  <!-- 사용현장: 축사(돈사) -->
+                </div>
+                <div class="biochem-site-item">
+                  <img src="images/orp-chemical/freecoex-site2.png" alt="슬러지 이송 설비 현장">
+                  <!-- 사용현장: 슬러지 이송 벨트 -->
+                </div>
+                <div class="biochem-site-item">
+                  <img src="images/orp-chemical/freecoex-site3.png" alt="퇴비화 시설 현장">
+                  <!-- 사용현장: 퇴비화 시설 -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="biochem-panel-text">
+            <p class="biochem-panel-eyebrow">산업용 · 산성 악취 전문 처리 솔루션</p>
+            <h3 class="biochem-panel-title">프리코EX</h3>
+            <p class="biochem-panel-desc">
+              악취물질과 접촉하여 즉각 분해하며 산성 계열 악취를 완벽하게
+              제거하는 전문 탈취 솔루션입니다.
+            </p>
+            <div class="biochem-feature-box">
+              <p class="biochem-feature-box-title">주요 특징</p>
+              <ul>
+                <li>광범위한 악취 스펙트럼 대응</li>
+                <li>안정성이 검증된 천연 원료 사용</li>
+                <li>복합 악취 발생 현장에 최적화</li>
+              </ul>
+            </div>
+            <div class="biochem-graph" style="aspect-ratio: 830 / 690;">
+              <img src="images/orp-chemical/freecoex-graph.png" alt="황화수소(H2S) 및 복합 악취 제거 효율 테스트">
+              <!-- 황화수소(H2S) 및 복합 악취 제거 효율 테스트 그래프: 초기농도 40 → 30분 경과 → 60분 경과 급감 -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- [산업용] 프리코EX 설명 영역 끝 -->
+
+      <!-- [산업용] 엑스클린 설명 영역 시작 (프리코 ex 브로셔.pdf 1~2p) -->
+      <div class="biochem-panel" id="panel-exclean">
+        <div class="biochem-panel-inner">
+          <div class="biochem-panel-visual">
+            <img src="images/ex-brochure/product-exclean.png?v=4" alt="엑스클린(EX-CLEAN)">
+            <!-- 엑스클린(EX-CLEAN) 제품 사진 (프리코 ex 브로셔.pdf 1p에서 추출) -->
+          </div>
+          <div class="biochem-panel-text">
+            <p class="biochem-panel-eyebrow">산업용 · EX-CLEAN</p>
+            <h3 class="biochem-panel-title">탄소중립 시대!<br>친환경 혁신 슬러지 감소 솔루션</h3>
+            <p class="biochem-panel-desc">
+              공공 하수·축산분뇨 처리장의 슬러지 발생량을 감소시키는 친환경
+              슬러지 저감 솔루션입니다. 위생적이고 안전한 100% 친환경
+              수용성 생화학 유기물 분해제로, 하수·분뇨·가축분뇨·음식물
+              처리장 등에서 발생하는 유기성 슬러지를 감량하고 생물반응조의
+              미생물 활성화와 생물 반응을 촉진합니다.
+            </p>
+            <ul class="biochem-badges">
+              <li>공공 하수 · 축산분뇨 처리장용</li>
+            </ul>
+          </div>
+
+          <div class="biochem-feature-grid">
+            <div class="biochem-feature-item">
+              <strong>1. 친환경 생물학적 분해제</strong>
+              <span>안정성이 검증된 친환경 성분</span>
+            </div>
+            <div class="biochem-feature-item">
+              <strong>2. 인체 · 동물 무해</strong>
+              <span>전혀 무해한 친환경 성분</span>
+            </div>
+            <div class="biochem-feature-item">
+              <strong>3. 부유물 액화 반응</strong>
+              <span>생물학 · 생화학 · 물리화학적 점도 분해</span>
+            </div>
+            <div class="biochem-feature-item">
+              <strong>4. 스케일 고착화 방지</strong>
+              <span>점도 분해로 이송 관로 스케일 고착화 방지</span>
+            </div>
+          </div>
+
+          <div class="biochem-usage">
+            <span class="biochem-usage-title">적용 효과</span>
+            <ul>
+              <li>막여과 공법(MBR) 차압과 방류량 안정화</li>
+              <li>슬러지 저감 및 탈수 효율 증대 (1㎥당 슬러지 발생량 173.9kg → 49.75kg)</li>
+              <li>고농도 침출수의 농도 완화 및 복합악취 저감</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- [산업용] 엑스클린 설명 영역 끝 -->
+
+      <!-- [산업용] 슬러지 엑스 설명 영역 시작 (슬러지엑스.pdf 참고) -->
+      <div class="biochem-panel" id="panel-sludge-x">
+        <div class="biochem-panel-inner biochem-panel-inner-top">
+          <div class="biochem-panel-visual">
+            <img src="images/orp-chemical/sludge-x-product.png" alt="슬러지엑스(Sludge X)">
+            <!-- 슬러지엑스(Sludge X) 제품 사진 (ORP케미컬 제품설명서 rev1.0.pptx 8p에서 추출) -->
+          </div>
+
+          <div class="biochem-panel-text">
+            <p class="biochem-panel-eyebrow">산업용 · Sludge X</p>
+            <h3 class="biochem-panel-title">슬러지엑스</h3>
+            <p class="biochem-panel-desc">
+              100% 친환경 수용성 제제로, 유기성 슬러지 저감 및 공정 효율화에
+              최적화된 제품입니다.
+            </p>
+            <ul class="biochem-badges">
+              <li>&#127793; 친환경 인증</li>
+              <li>&#10003; 인체 무해</li>
+            </ul>
+            <div class="biochem-feature-box">
+              <p class="biochem-feature-box-title">주요 특징</p>
+              <ul>
+                <li>안정성이 검증된 친환경 생물학적 분해제</li>
+                <li>동물 및 인체에 전혀 무해한 친환경 성분</li>
+                <li>생물학, 생화학, 물리화학에 의한 유기물의 점도분해로 인한 부유물 액화 반응</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="biochem-process">
+            <p class="biochem-feature-box-title">공정도</p>
+            <div class="biochem-case-grid">
+              <div class="biochem-case-col">
+                <div class="biochem-case-card biochem-case-1">
+                  <img src="images/orp-chemical/sludgex-case1.png" alt="① 막여과 공법 차압과 방류량 안정화">
+                  <!-- 슬러지엑스.pdf 1p 사례①: 막여과 공법 차압과 방류량 안정화 (Before/After 그래프) -->
+                </div>
+                <div class="biochem-case-card biochem-case-2">
+                  <img src="images/orp-chemical/sludgex-case2.png" alt="② 슬러지 저감 및 탈수 효율 증대">
+                  <!-- 슬러지엑스.pdf 1p 사례②: 슬러지 저감 및 탈수 효율 증대 (173.9kg/㎥ → 49.75kg/㎥) -->
+                </div>
+              </div>
+              <div class="biochem-case-card biochem-case-tall">
+                <img src="images/orp-chemical/sludgex-case3.png" alt="③ 고농도 침출수의 농도 완화 및 악취 저감">
+                <!-- 슬러지엑스.pdf 1p 사례③: 고농도 침출수의 농도 완화 및 악취 저감 (원수 100,000 → 투입 후 6,694) -->
+              </div>
+            </div>
+          </div>
+
+          <div class="biochem-tech-secret">
+            <p class="biochem-feature-box-title">차원이 다른 분해력 '슬러지엑스' 기술의 비밀</p>
+            <ul class="biochem-tech-bullets">
+              <li>친환경 생화학적 분해 원리: 천연 유기물 원료를 사용하여 기존 화학 약품과는 달리 환경에 무해하며, 폐수처리과정의 생물 반응을 최적화합니다.</li>
+              <li>고효율 유기물 분해: 고활성 효소 및 유기물 촉진 인자가 슬러지 내 유기물을 빠르게 분해하여, 고형물 발생 자체를 근본적으로 억제합니다.</li>
+            </ul>
+
+            <div class="biochem-wide-image">
+              <img src="images/orp-chemical/sludgex-tests.png" alt="점도 분해 시험 / 부유물질(SS) 시험 결과">
+              <!-- 슬러지엑스.pdf 2p: 점도 분해 시험(16.5→3.09), 부유물질(SS) 시험 결과(40,700→10,900) -->
+            </div>
+
+            <div class="biochem-wide-image">
+              <img src="images/orp-chemical/sludgex-flow.png" alt="HPS + 슬러지엑스 적용 슬러지 감량화 공정">
+              <!-- 슬러지엑스.pdf 2p: HPS + 슬러지엑스 적용 슬러지 감량화 공정 흐름도 -->
+            </div>
+
+            <div class="biochem-method-list">
+              <div class="biochem-method-item">
+                <span class="biochem-method-tag">막여과 공법(MBR)</span>
+                <p>분리막(중공막·평막)의 오염으로 인한 세정 및 교체 주기를 연장, 슬러지 발생량 감소</p>
+              </div>
+              <div class="biochem-method-item">
+                <span class="biochem-method-tag">생물학적 공법</span>
+                <p>생물반응조 내 미생물 활성화 촉진(안정적 수질관리), 슬러지 저감</p>
+              </div>
+              <div class="biochem-method-item">
+                <span class="biochem-method-tag">혐기성 소화조 공법</span>
+                <p>혐기소화 반응을 촉진하여 소화 기간 단축, 매탄가스 증산, 황발생 제어, 슬러지 감량</p>
+              </div>
+              <div class="biochem-method-item">
+                <span class="biochem-method-tag">건조 및 소각 시설</span>
+                <p>침출수 농도 개선 및 악취 저감, 침출수 연결 처리 용이</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- [산업용] 슬러지 엑스 설명 영역 끝 -->
+
+      <!-- [산업용] 클린원 오일 설명 영역 시작 (ORP케미컬 제품설명서 rev1.0.pptx 6p+7p) -->
+      <div class="biochem-panel" id="panel-surface-mod">
+        <div class="biochem-panel-inner biochem-panel-inner-top">
+
+          <!-- 좌측: 클린원 오일 401 (6p) -->
+          <div class="biochem-oil-card">
+            <p class="biochem-panel-eyebrow">산업용 · Clean One Oil -401</p>
+            <h3 class="biochem-panel-title">클린원 오일 401</h3>
+            <div class="biochem-panel-visual">
+              <img src="images/orp-chemical/oil401-product.png" alt="클린원 오일 401(Oil Cleaner 401)">
+              <!-- 클린원 오일 401 완제품 사진 -->
+            </div>
+            <p class="biochem-panel-desc">
+              원유, 가솔린 등 탄화수소류 누출 현장 정화를 위한 친환경
+              분해제입니다. 금속, 석재, 콘크리트 표면의 오염은 물론 수질 내
+              유류 방류 시에도 점도를 제거하고 탁월한 세정 성능을 발휘합니다.
+            </p>
+            <div class="biochem-feature-grid">
+              <div class="biochem-feature-item">
+                <strong>미생물 먹이화</strong>
+                <span>유류를 소분화하여 현장 미생물의 먹이로 전환</span>
+              </div>
+              <div class="biochem-feature-item">
+                <strong>유류 오염원 응집</strong>
+                <span>물에 떠 있는 오염원을 효과적으로 모아 처리 지원</span>
+              </div>
+              <div class="biochem-feature-item">
+                <strong>안전한 보관/사용</strong>
+                <span>100% 생물학적 분해 제품으로 취급 시 안전성 확보</span>
+              </div>
+              <div class="biochem-feature-item">
+                <strong>지속적 복원</strong>
+                <span>투입 후 잔여 유류까지 지속적으로 분해 수행</span>
+              </div>
+            </div>
+            <div class="biochem-site-block">
+              <p class="biochem-site-title">주요 적용 현장</p>
+              <div class="biochem-site-grid biochem-site-grid-label">
+                <div class="biochem-site-item">
+                  <img src="images/orp-chemical/oil401-site1.png" alt="해상 및 하천 유류 누출 정화">
+                  <!-- 적용 현장: 해상 및 하천 유류 누출 정화 -->
+                </div>
+                <div class="biochem-site-item">
+                  <img src="images/orp-chemical/oil401-site2.png" alt="공장바닥 및 금속/석재표면 세정">
+                  <!-- 적용 현장: 공장바닥 및 금속/석재표면 세정 -->
+                </div>
+                <div class="biochem-site-item">
+                  <img src="images/orp-chemical/oil401-site3.png" alt="토양 오염">
+                  <!-- 적용 현장: 토양 오염 -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 우측: 클린원 오일 636 (7p) -->
+          <div class="biochem-oil-card">
+            <p class="biochem-panel-eyebrow">산업용 · Oil Cleaner 636</p>
+            <h3 class="biochem-panel-title">클린원 오일 636</h3>
+            <div class="biochem-panel-visual">
+              <img src="images/orp-chemical/oil636-product.png" alt="클린원 오일 636(Oil Cleaner 636)">
+              <!-- 클린원 오일 636 완제품 사진 -->
+            </div>
+            <p class="biochem-panel-desc">
+              육류/가공공장, 식당의 동물성 지방질 및 식용유 등을 즉시
+              세정하는 제품입니다. 지방과 구리스를 분해하여 표면 재점착을
+              방지하며, 바닥 미끄러움과 위생 문제를 동시에 해결합니다.
+            </p>
+            <div class="biochem-feature-grid">
+              <div class="biochem-feature-item">
+                <strong>순간 세정 성능</strong>
+                <span>지방질 기름과 식용유 등을 즉각적으로 제거</span>
+              </div>
+              <div class="biochem-feature-item">
+                <strong>재점착 원천 차단</strong>
+                <span>세정 표면에 구리스가 다시 붙지 않도록 처리</span>
+              </div>
+              <div class="biochem-feature-item">
+                <strong>미끄럼 사고 예방</strong>
+                <span>바닥의 유분기를 말끔히 없애 작업 안전성 확보</span>
+              </div>
+              <div class="biochem-feature-item">
+                <strong>해충 및 위생 관리</strong>
+                <span>잔류 기름기 제거로 세균/해충의 접근 차단</span>
+              </div>
+            </div>
+            <div class="biochem-site-block">
+              <p class="biochem-site-title">주요 적용 현장</p>
+              <div class="biochem-site-grid biochem-site-grid-label">
+                <div class="biochem-site-item">
+                  <img src="images/orp-chemical/oil636-site1.png" alt="육류 및 계육 가공공장">
+                  <!-- 적용 현장: 육류 및 계육 가공공장 -->
+                </div>
+                <div class="biochem-site-item">
+                  <img src="images/orp-chemical/oil636-site2.png" alt="대형식당 및 조리시설">
+                  <!-- 적용 현장: 대형식당 및 조리시설 -->
+                </div>
+                <div class="biochem-site-item">
+                  <img src="images/orp-chemical/oil636-site3.png" alt="공장 바닥">
+                  <!-- 적용 현장: 공장 바닥 -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- [산업용] 클린원 오일 설명 영역 끝 -->
+
+      <!-- [생활용] 프리코-생활용 설명 영역 시작 (냄새제거용품 제품설명서0616.pdf 4p+5p) -->
+      <div class="biochem-panel" id="panel-freeco-life">
+
+        <!-- 4p: 프리코 냄새 제거 스프레이 -->
+        <div class="biochem-subproduct">
+          <p class="biochem-subproduct-name">01 · Freeco Spray</p>
+          <div class="biochem-panel-inner">
+            <div class="biochem-panel-visual">
+              <img src="images/freeco/product-spray.png?v=2" alt="프리코 냄새 제거 스프레이">
+              <!-- 프리코 냄새 제거 스프레이 제품 사진 (1L / 300mL) -->
+            </div>
+            <div class="biochem-panel-text">
+              <p class="biochem-panel-eyebrow">생활용 · 프리코 냄새 제거 스프레이</p>
+              <h3 class="biochem-panel-title">반복되는 생활 냄새,<br>원인부터 관리</h3>
+              <div class="biochem-cause-block">
+                <p class="biochem-cause-quote">땀과 피지,<br>생활 냄새의 원인까지 관리</p>
+                <div class="biochem-cause-grid">
+                  <div class="biochem-cause-item">
+                    <img src="images/freeco/life-bedding.png" alt="침구">
+                  </div>
+                  <div class="biochem-cause-item">
+                    <img src="images/freeco/life-clothes.png" alt="의류">
+                  </div>
+                  <div class="biochem-cause-item">
+                    <img src="images/freeco/life-petspace.png" alt="반려동물 공간">
+                  </div>
+                  <div class="biochem-cause-item">
+                    <img src="images/freeco/life-sofa.png" alt="소파 / 패브릭">
+                  </div>
+                  <div class="biochem-cause-item">
+                    <img src="images/freeco/life-car.png" alt="차량 내부 담배냄새">
+                  </div>
+                  <div class="biochem-cause-item">
+                    <img src="images/freeco/life-kitchen.png" alt="주방">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="biochem-feature-grid">
+              <div class="biochem-feature-item">
+                <strong>1. 냄새 원인 분해</strong>
+                <span>근본적인 냄새 원인 제거</span>
+              </div>
+              <div class="biochem-feature-item">
+                <strong>2. 무향 · 무색 · 무독성</strong>
+                <span>안전하게 안심하고 사용</span>
+              </div>
+              <div class="biochem-feature-item">
+                <strong>3. 99.9% 세균 감소</strong>
+                <span>유해 세균을 효과적으로 케어</span>
+              </div>
+              <div class="biochem-feature-item">
+                <strong>4. 유해성분 無</strong>
+                <span>인체에 유해한 성분 없이 안전</span>
+              </div>
+            </div>
+
+            <div class="biochem-usage">
+              <span class="biochem-usage-title">사용 방법</span>
+              <ul>
+                <li>냄새가 발생하는 공간 또는 표면에 충분히 분사해 주세요.</li>
+                <li>사용 대상에 따라 자연 건조하거나 마른 천으로 가볍게 닦아주시면 생활 공간을 더욱 쾌적하고 뽀송뽀송하게 관리할 수 있습니다.</li>
+              </ul>
+            </div>
+
+            <p class="biochem-callout">
+              프리코는 향으로 냄새를 가리는 것이 아니라, 냄새 발생 원인을 관리하여
+              반복되는 생활 악취를 효과적으로 케어합니다.
+            </p>
+          </div>
+        </div>
+
+        <!-- 5p: 프리코 신발 냄새 제거 팩 -->
+        <div class="biochem-subproduct">
+          <p class="biochem-subproduct-name">02 · Freeco Shoe Deodorizing Pad</p>
+          <div class="biochem-panel-inner">
+            <div class="biochem-panel-visual">
+              <img src="images/freeco/product-shoepad.png" alt="프리코 신발 냄새 제거 팩">
+              <!-- 프리코 신발 냄새 제거 팩 제품 사진 -->
+            </div>
+            <div class="biochem-panel-text">
+              <p class="biochem-panel-eyebrow">생활용 · 프리코 신발 냄새 제거 팩</p>
+              <h3 class="biochem-panel-title">신발 속에 넣어두는 제거 팩,<br>간편 신발 냄새 제거</h3>
+              <p class="biochem-panel-desc">
+                신발 속, 신발장, 운동가방, 라커룸 등 밀폐된 공간에 넣어두기만
+                하면 되는 간편한 신발 냄새 제거 팩입니다.
+              </p>
+              <div class="biochem-cause-block">
+                <p class="biochem-cause-quote">벗는 순간 올라오는 불쾌한 냄새,<br>이제 간편하게 리셋.</p>
+                <div class="biochem-cause-grid">
+                  <div class="biochem-cause-item">
+                    <img src="images/freeco/shoe-entrance.png" alt="신발 속 / 신발장">
+                  </div>
+                  <div class="biochem-cause-item">
+                    <img src="images/freeco/shoe-gymbag.png" alt="운동가방 or 체육용품">
+                  </div>
+                  <div class="biochem-cause-item">
+                    <img src="images/freeco/shoe-rental.png" alt="렌탈용품 or 렌탈화">
+                  </div>
+                  <div class="biochem-cause-item">
+                    <img src="images/freeco/shoe-locker.png" alt="락커룸">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="biochem-feature-grid">
+              <div class="biochem-feature-item">
+                <strong>1. 신발 속 냄새 제거</strong>
+                <span>쾌적한 신발 환경 유지</span>
+              </div>
+              <div class="biochem-feature-item">
+                <strong>2. 위생적인 관리</strong>
+                <span>보관 중에도 위생적으로</span>
+              </div>
+              <div class="biochem-feature-item">
+                <strong>3. 일회용 사용</strong>
+                <span>휴대가 간편한 냄새 제거 팩</span>
+              </div>
+              <div class="biochem-feature-item">
+                <strong>4. 안전한 성분</strong>
+                <span>안심하고 사용 가능</span>
+              </div>
+            </div>
+
+            <div class="biochem-usage">
+              <span class="biochem-usage-title">사용 방법</span>
+              <ul>
+                <li>신발 속 또는 신발장에 넣어 사용해 주세요.</li>
+                <li>운동화, 작업화, 렌탈화 등 다양한 신발에 사용할 수 있습니다.</li>
+                <li>신발장, 사물함 등 밀폐된 공간에 함께 사용하면 공간에 남아있는 냄새까지 쾌적하게 관리할 수 있습니다.</li>
+              </ul>
+            </div>
+
+            <p class="biochem-callout">
+              프리코는 향으로 냄새를 덮는 것이 아니라, 신발 속 냄새 발생 원인을
+              관리하여 쾌적한 신발 환경을 유지합니다.
+            </p>
+          </div>
+        </div>
+
+        <div class="biochem-subproduct">
+          <p class="biochem-subproduct-name">프리코 · 성능 및 인증</p>
+          <div class="biochem-cause-block">
+            <p class="biochem-cause-quote">엄격한 시험을 통과한,<br>믿을 수 있는 품질</p>
+            <div class="biochem-stats biochem-stats-wide">
+              <div class="biochem-stat-card">
+                <p class="biochem-stat-label-en">Odor Reduction</p>
+                <p class="biochem-stat-value">92.9%</p>
+                <p class="biochem-stat-label">탈취 효율</p>
+                <div class="biochem-stat-proof">
+                  <img src="images/pet-detail/cert-odorreduction.png" alt="탈취 효율 92.9% 시험성적서">
+                  <!-- 탈취 효율 92.9% 시험성적서 스캔 -->
+                </div>
+              </div>
+              <div class="biochem-stat-card">
+                <p class="biochem-stat-label-en">Bacteria Reduction</p>
+                <p class="biochem-stat-value">99.9%</p>
+                <p class="biochem-stat-label">세균 감소율</p>
+              </div>
+              <div class="biochem-stat-card">
+                <p class="biochem-stat-label-en">Heavy Metals</p>
+                <p class="biochem-stat-value">불검출</p>
+                <p class="biochem-stat-label">중금속 · 위해우려물질</p>
+              </div>
+              <div class="biochem-stat-card">
+                <p class="biochem-stat-label-en">Eco Label</p>
+                <p class="biochem-stat-value">인증완료</p>
+                <p class="biochem-stat-label">환경마크(환경부)</p>
+                <div class="biochem-stat-proof">
+                  <img src="images/pet-detail/cert-ecolabel.png" alt="환경표지 인증서">
+                  <!-- 환경표지 인증서 스캔 -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- [생활용] 프리코-생활용 설명 영역 끝 -->
+
+      <!-- [생활용] 프리코-펫 설명 영역 시작 (동물용 상세페이지.pdf 1~9p 중 핵심 발췌) -->
+      <div class="biochem-panel" id="panel-freeco-pet">
+        <div class="biochem-panel-inner">
+          <div class="biochem-panel-visual">
+            <img src="images/pet-detail/product-pet-care.png" alt="프리코 펫 케어">
+            <!-- 프리코 펫 케어(동물용 500ml) 제품 사진 -->
+          </div>
+          <div class="biochem-panel-text">
+            <p class="biochem-panel-eyebrow">생활용 · 프리코 펫 케어</p>
+            <h3 class="biochem-panel-title">반려동물을 위한<br>쾌적한 공간 관리</h3>
+            <p class="biochem-panel-desc">
+              배변 주변 암모니아 냄새, 반려동물 침구, 하우스·캣타워까지 —
+              반려동물이 머무는 다양한 생활 공간의 냄새 원인을 관리하는
+              동물용 프리코입니다.
+            </p>
+            <ul class="biochem-badges">
+              <li>&#127793; 친환경 인증(환경부)</li>
+              <li>동물용 500mL</li>
+            </ul>
+            <div class="biochem-feature-grid">
+              <div class="biochem-feature-item">
+                <strong>1. 무향 · 무알콜</strong>
+                <span>향료와 알코올 없이 부담 없이 사용</span>
+              </div>
+              <div class="biochem-feature-item">
+                <strong>2. 인공향료 ZERO</strong>
+                <span>향으로 덮지 않고 냄새의 원인을 관리</span>
+              </div>
+              <div class="biochem-feature-item">
+                <strong>3. 천연 식물성 원료</strong>
+                <span>코코넛 지방산 · 야자열매 씨앗오일 등</span>
+              </div>
+              <div class="biochem-feature-item">
+                <strong>4. 안심하고 사용</strong>
+                <span>생활 공간 어디서나 편안하게 사용 가능</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="biochem-usage">
+            <span class="biochem-usage-title">적용 공간</span>
+            <div class="biochem-space-grid">
+              <div class="biochem-space-item">
+                <img src="images/pet-detail/space-house.png" alt="하우스 · 켄넬">
+                <!-- 적용 공간 사진: 하우스/켄넬 -->
+                <span>하우스 · 켄넬</span>
+              </div>
+              <div class="biochem-space-item">
+                <img src="images/pet-detail/space-cattower.png" alt="캣타워 · 스크래치">
+                <!-- 적용 공간 사진: 캣타워/스크래치 -->
+                <span>캣타워 · 스크래치</span>
+              </div>
+              <div class="biochem-space-item">
+                <img src="images/pet-detail/space-pad.png" alt="배변패드">
+                <!-- 적용 공간 사진: 배변패드 -->
+                <span>배변패드</span>
+              </div>
+              <div class="biochem-space-item">
+                <img src="images/pet-detail/space-feeder.png" alt="식기 주변">
+                <!-- 적용 공간 사진: 식기 주변 -->
+                <span>식기 주변</span>
+              </div>
+              <div class="biochem-space-item">
+                <img src="images/pet-detail/space-toys.png" alt="장난감 · 용품">
+                <!-- 적용 공간 사진: 장난감/용품 -->
+                <span>장난감 · 용품</span>
+              </div>
+              <div class="biochem-space-item">
+                <img src="images/pet-detail/space-bedding.png" alt="방석 · 침구">
+                <!-- 적용 공간 사진: 방석/침구 -->
+                <span>방석 · 침구</span>
+              </div>
+            </div>
+          </div>
+
+          <p class="biochem-callout">
+            프리코는 향으로 덮지 않고, 냄새의 원인을 분해합니다.
+            근본적인 원인 제거로 반려동물과 함께하는 공간을 더욱 쾌적하게
+            유지합니다.
+          </p>
+        </div>
+      </div>
+      <!-- [생활용] 프리코-펫 설명 영역 끝 -->
+
+      <!-- [생활용] 프리코-하수구 설명 영역 시작 (냄새제거용품 제품설명서0616.pdf 7p: 클린원(Clean-One) 하수구 냄새 제거제) -->
+      <div class="biochem-panel" id="panel-freeco-drain">
+        <div class="biochem-panel-inner">
+          <div class="biochem-panel-visual">
+            <img src="images/freeco/product-drain.png" alt="클린원(Clean-One) 하수구 냄새 제거제">
+            <!-- 클린원(Clean-One) 하수구 냄새 제거제 제품 사진 -->
+          </div>
+          <div class="biochem-panel-text">
+            <p class="biochem-panel-eyebrow">생활용 · 클린원(Clean-One)</p>
+            <h3 class="biochem-panel-title">하수구 속 악취 원인,<br>간편하게 케어</h3>
+            <p class="biochem-panel-desc">
+              화장실·세탁실·베란다·싱크대 등 다양한 배수구에 원액을 부어
+              간편하게 사용하는 하수구 냄새 제거제입니다.
+            </p>
+            <div class="biochem-feature-grid">
+              <div class="biochem-feature-item">
+                <strong>1. 악취 원인 관리</strong>
+                <span>냄새 발생 원인 케어</span>
+              </div>
+              <div class="biochem-feature-item">
+                <strong>2. 다양한 배수구 사용</strong>
+                <span>화장실 · 주방 · 세탁실</span>
+              </div>
+              <div class="biochem-feature-item">
+                <strong>3. 간편한 사용</strong>
+                <span>원액을 부어 간편 사용</span>
+              </div>
+              <div class="biochem-feature-item">
+                <strong>4. 쾌적한 환경 유지</strong>
+                <span>불쾌한 냄새 관리</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="biochem-usage">
+            <span class="biochem-usage-title">사용 방법</span>
+            <ul>
+              <li>하수구 및 배수구에 원액을 적당량 부어 사용해 주세요.</li>
+              <li>악취 및 오염 정도에 따라 사용량을 조절할 수 있으며, 화장실·하수구·배수구·싱크대 등의 불쾌한 냄새를 간편하게 관리할 수 있습니다.</li>
+            </ul>
+          </div>
+
+          <p class="biochem-callout">
+            프리코는 하수구 속 악취 원인을 관리하여 반복되는 냄새를 효과적으로
+            케어합니다.
+          </p>
+        </div>
+      </div>
+      <!-- [생활용] 프리코-하수구 설명 영역 끝 -->
+
+    </div>
+
+    <div class="doc-back">
+      <a href="index.html#hero">← 메인으로 돌아가기</a>
+    </div>
+  </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <span class="footer-logo">KDT 한국탈취기술(주)</span>
+      <ul class="footer-links">
+        <li><a href="about-overview.html">회사개요</a></li>
+        <li><a href="files/KDT_탈취기_카탈로그.pdf" download>카탈로그</a></li>
+        <li><a href="notice.html">공지사항</a></li>
+        <li><a href="contact.html">고객문의</a></li>
+      </ul>
+    </div>
+    <div class="footer-info">
+      <p>상호 : 한국탈취기술(주) &nbsp;|&nbsp; 대표자 : 000 &nbsp;|&nbsp; 사업자등록번호 : 000-00-00000</p>
+      <p>주소 : 00도 00시 00구 00로 00 &nbsp;|&nbsp; TEL : 000-0000-0000 &nbsp;|&nbsp; FAX : 000-0000-0000</p>
+      <p class="footer-copy">&copy; 2026 KDT Korea Deodorization Technology Co., Ltd. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
